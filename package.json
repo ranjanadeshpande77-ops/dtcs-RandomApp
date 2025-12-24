@@ -1,0 +1,12 @@
+{
+  "name": "christmas-eve-sender",
+  "version": "1.0.0",
+  "description": "Send Christmas Eve messages to team via SMTP",
+  "main": "send_emails.js",
+  "scripts": {
+    "send": "node send_emails.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.4"
+  }
+}
